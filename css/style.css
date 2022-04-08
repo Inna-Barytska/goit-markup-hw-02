@@ -1,0 +1,166 @@
+/* основний колір тексту #212121 */
+/* вторичний колір тексту #757575 */
+/* акцент #2196F3 */
+/* сірий для тексту силок #757575 */
+/* силки в футері сірий rgba(255, 255, 255, 0.6) */
+/* білий #FFFFFF */
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --text-color: #ffffff;
+  --portfolio-button: #f5f4fa;
+  --bgc-color: #2f303a;
+  --bgc-section: #f5f4fa;
+  --footer-contact: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--text-color);
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+}
+/* index.html */
+/* header */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+.logo-text {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-color);
+  letter-spacing: 0.02em;
+}
+.nav-list .nav-item:hover,
+.nav-list .nav-item:focus {
+  color: var(--accent-color);
+}
+.nav-list .nav-item.current {
+  color: var(--accent-color);
+}
+.site-nav .nav-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+}
+.site-nav .nav-contact:hover,
+.site-nav .nav-contact:focus {
+  color: var(--accent-color);
+}
+/* main */
+.section-hero {
+  background-color: var(--bgc-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--text-color);
+  letter-spacing: 0.06em;
+}
+.button-text {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+.button-text:hover,
+.button-text:focus {
+  color: var(--text-color);
+}
+.section-team {
+  background-color: var(--bgc-section);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.desc-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.desc-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-text-color);
+}
+/* footer */
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--text-color);
+}
+.text-footer {
+  color: var(--accent-color);
+}
+footer {
+  background-color: var(--bgc-color);
+}
+.footer-list .footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--footer-contact);
+  font-style: normal;
+}
+.footer-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  color: var(--text-color);
+}
+/* portfolio.html */
+button {
+  font-family: inherit;
+}
+.filter .filter-list {
+  background-color: var(--portfolio-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+}
+.filter .filter-list:hover,
+.filter .filter-list:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+.port-desk {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--secondary-text-color);
+}
