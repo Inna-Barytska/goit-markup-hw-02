@@ -79,6 +79,7 @@ a {
   color: var(--text-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button-text:hover,
 .button-text:focus {
@@ -98,7 +99,6 @@ a {
   line-height: 1.14;
 }
 .desc-p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
@@ -109,7 +109,6 @@ a {
   line-height: 1.18;
 }
 .team-p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
@@ -129,14 +128,16 @@ footer {
   background-color: var(--bgc-color);
 }
 .footer-list .footer-contact {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--footer-contact);
-  font-style: normal;
+  font-weight: 500;
+}
+.footer-list .footer-contact:hover,
+.footer-list .footer-contact:focus {
+  color: var(--accent-color);
 }
 .footer-adress {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
@@ -152,6 +153,7 @@ button {
   font-size: 16px;
   line-height: 1.6;
   border: none;
+  cursor: pointer;
 }
 .filter .filter-list:hover,
 .filter .filter-list:focus {
@@ -159,7 +161,6 @@ button {
   color: var(--text-color);
 }
 .port-desk {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-text-color);
