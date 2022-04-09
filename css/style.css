@@ -74,8 +74,10 @@ a {
   line-height: 1.36;
   color: var(--text-color);
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button-text {
+  font-family: inherit;
   color: var(--text-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
@@ -97,6 +99,7 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .desc-p {
   font-size: 14px;
@@ -148,17 +151,25 @@ button {
   font-family: inherit;
 }
 .filter .filter-list {
+  font-family: inherit;
   background-color: var(--portfolio-button);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   border: none;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 .filter .filter-list:hover,
 .filter .filter-list:focus {
   background-color: var(--accent-color);
   color: var(--text-color);
+}
+.port-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .port-desk {
   font-size: 16px;
